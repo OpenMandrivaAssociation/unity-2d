@@ -84,7 +84,7 @@ as a standalone application outside of the Unity 2D environment.
 
 %package spread
 Summary:	Unity 2d spread
-Group:		Applications/System
+Group:		Graphical desktop/Other
 
 %description spread
 The Unity 2D spread allows you to display a quick thumbnailed view of open
