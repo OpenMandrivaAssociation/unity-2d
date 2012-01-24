@@ -45,7 +45,7 @@ Unity 2D is designed to run smoothly without any graphics acceleration.
 
 %package launcher
 Summary:	Unity 2d launcher
-Group:		Applications/System
+Group:		Graphical desktop/Other
 Requires:	unity-asset-pool
 Suggests:	unity-lens-application
 Suggests:	unity-lens-files
@@ -59,7 +59,7 @@ launcher.
 
 %package panel
 Summary:	Unity 2d panel
-Group:		Applications/System
+Group:		Graphical desktop/Other
 Provides:	indicator-renderer
 Suggests:	indicator-application
 Suggests:	indicator-appmenu
@@ -75,7 +75,7 @@ application outside of the Unity 2D environment.
 
 %package places
 Summary:	Unity 2d places
-Group:		Applications/System
+Group:		Graphical desktop/Other
 
 %description places
 The Unity 2D places overlay over the desktop to provide quick access to
