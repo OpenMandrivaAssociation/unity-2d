@@ -4,14 +4,12 @@
 
 Summary:	Unity interface for non-accelerated graphics cards
 Name:		unity-2d
-Version:	4.12.1
+Version:	5.12.0
 Release:	1
 License:	GPLv3,LGPLv3
 Url:		http://launchpad.net/unity-2d
 Group:		Graphical desktop/Other
 Source0:	%{name}-%{version}.tar.gz
-# needed for manpages and gconf files
-Source1:	http://archive.ubuntu.com/ubuntu/pool/main/u/unity-2d/%{name}_4.12.0-0ubuntu1.debian.tar.gz
 
 BuildRequires:	cmake
 BuildRequires:	boost-devel
@@ -123,7 +121,6 @@ Development files for unity-2d-private
 %makeinstall_std -C build
 
 # install missing manpages and gconf files
-tar xzf %SOURCE1
 install -d %{buildroot}%{_mandir}/man1
 install -m 0755 debian/manpages/%{name}-* %{buildroot}%{_mandir}/man1
 
