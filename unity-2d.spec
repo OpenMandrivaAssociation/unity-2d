@@ -110,7 +110,7 @@ Development files for unity-2d-private
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %cmake
