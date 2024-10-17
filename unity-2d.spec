@@ -7,7 +7,7 @@ Name:		unity-2d
 Version:	5.12.0
 Release:	1
 License:	GPLv3,LGPLv3
-Url:		http://launchpad.net/unity-2d
+Url:		https://launchpad.net/unity-2d
 Group:		Graphical desktop/Other
 Source0:	%{name}-%{version}.tar.gz
 
